@@ -1,0 +1,13 @@
+1. 1. Is the decision surface of a logistic regression model linear or non-linear?
+
+Its linear.
+
+2. Write down some differences and or similarities between Gaussian Naive Bayes and Logistic Regression.
+
+Differences:
+Gaussian Naive Bayes is linear classifier using Bayes Theorem and needs a strong independence condition among features whereas Logistic regression is mainly used in cases where the output is boolean. Also, multi-class logistic regression can be used for outcomes with more than two values. 
+Both the above techniques get to their accuracies at different rates.
+Logistic Regression generally requires time of order n whereas Gaussian Naive Bayes generally takes log n order of time.
+
+Similarties:
+Both the Gaussian Naive Bayes and Logistic Regression algorithms can be used for classification of the data, although former a generative classifier, and the latter a discriminative classifier. The approach when the training size is less relative to the features, the information on prior probabilities helps in improving the results in both Gaussian Naive Bayes and Logistic Regression techniques. 
